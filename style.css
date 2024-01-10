@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.field{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.player {
+    height: 40px;
+    width: 30px;
+    background-color: rgba(255,255,255,0);
+    position: fixed;
+    top: calc(90vh - 40px);
+    left: 5vw;
+}
+
+.ground {
+    height: 10vh;
+    width: 100vw;
+    top: 90vh;
+    position: fixed;
+    background-color: aqua;
+}
+
+.platform {
+    height: 30px;
+    width: 10vw;
+    position: fixed;
+    background-color: aqua;
+}
+
+img {
+    height: 99%;
+    width: 100%;
+}
