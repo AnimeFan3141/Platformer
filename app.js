@@ -45,7 +45,7 @@ app.get("/index.js", (req, res) => {
 }
 );
 
-const server = app.listen(port, () => console.log(`Mass reading app listening on port ${port}!`));
+const server = app.listen(port, () => console.log(`penguin platformer app on port ${port}!`));
 
 server.keepAliveTimeout = 120 * 1000;
 server.headersTimeout = 120 * 1000;
