@@ -18,14 +18,14 @@ app.get("/index.html", (req, res) => {
 );
 
 app.get("/bg.jpg", (req, res) => {
-    const html = fs.readFileSync("./bg.jpg", "utf8");
+    const html = fs.readFileSync("./bg.jpg");
   
     res.type('image/jpeg').send(html);
 }
 );
 
 app.get("/pengu.png", (req, res) => {
-    const html = fs.readFileSync("./pengu.png", "utf8");
+    const html = fs.readFileSync("./pengu.png");
   
     res.type('image/png').send(html);
 }
